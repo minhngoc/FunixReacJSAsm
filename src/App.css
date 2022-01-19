@@ -1,0 +1,59 @@
+.App {
+  background-image: url('https://ae01.alicdn.com/kf/HTB1G_5OnH9YBuNjy0Fgq6AxcXXaw/7x5FT-Vintage-Tr-ng-V-n-G-Treo-T-ng-Pallet-G-T-y-Ch-nh.jpg_Q90.jpg_.webp');
+  height: 650px;
+}
+
+.App h3 {
+  background-color: rgb(128, 44, 18);
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 35px;
+}
+
+.staffList {
+  background-color: rgb(224, 216, 140);
+  margin-bottom: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 0.8cm;
+}
+.staffList p {
+  cursor: pointer;
+  text-align: center;
+
+
+}
+
+.staffList h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.content {
+  font-weight: bold;
+  background-color: rgb(103, 219, 210);
+  padding: 10px;
+  width: fit-content; 
+}
+.content p {
+  margin: 5px;
+}
+
+p {
+  display: block;
+}
+.department {
+  background-color: rgb(163, 151, 214);
+  margin-top: 10px;
+}
+
+.button {
+  background-color: rgb(113, 74, 184);
+  color: aliceblue;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
