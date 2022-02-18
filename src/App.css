@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  /* background-image: url('https://ae01.alicdn.com/kf/HTB1G_5OnH9YBuNjy0Fgq6AxcXXaw/7x5FT-Vintage-Tr-ng-V-n-G-Treo-T-ng-Pallet-G-T-y-Ch-nh.jpg_Q90.jpg_.webp'); */
+  background-color: rgba(204, 206, 240, 0.637);
+  
+}
+
+.staffList {
+  background-color: rgba(148, 195, 233, 0.603);
+  margin-bottom: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 0.8cm;
+}
+.staffList p {
+  text-align: center;
+}
+.staffList img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.staffList h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.content {
+  font-weight: bold;
+  background-color: rgba(196, 77, 73, 0.555);
+  padding: 10px;
+  width: fit-content; 
+}
+.content p {
+  margin: 5px;
+}
+
+p {
+  display: block;
+}
+.department {
+  background-color: rgb(163, 151, 214);
+  margin-top: 10px;
+}
+
+.button {
+  background-color: rgb(113, 74, 184);
+  color: aliceblue;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#labelColumn {
+  font-weight: bold;
+}
+.nav {
+  margin-bottom: 20px;
+  background-color: brown;
+}
+.nav-item {
+  margin: 10px 50px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer {
+  margin-top: 30px;
+  background-color: rgba(93, 238, 238, 0.568);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 20px;
+  
+}
+.button {
+  margin: 0 10px;
+  background-color: rgba(241, 47, 47, 0.651);
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+
+
+
