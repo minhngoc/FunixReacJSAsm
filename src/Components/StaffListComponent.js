@@ -1,5 +1,5 @@
 import { Fragment, useCallback } from 'react';
-import { DEPARTMENTS, STAFFS } from './staffs'
+import { DEPARTMENTS, STAFFS } from '../staffs'
 import { useState } from 'react';
 import dateFormat from 'dateformat'; 
 import { Link } from 'react-router-dom';
@@ -26,19 +26,6 @@ function StaffListComponent() {
             </div>        
    )}
 
-//    const handleDepartment = () => {
-//       setDepartment(() => 
-        
-//         <ul>{
-//           DEPARTMENTS.map(Department => 
-//                 <li>{Department.name}</li>
-//           )}
-//         </ul>
-//         )
-        
-//    }
- 
-
     return (
     <div className='container'>
         <div className='row staffList'>
@@ -55,17 +42,7 @@ function StaffListComponent() {
             )}
         </div>
 
-        {/* <div className='main row'>
-            <div className='col-xs-6 col-md-6 col-lg-6'>
-                <button onClick={handleDepartment} className='button'>Danh sách phòng ban</button>
-                <p className='department'>{department}</p>
-            </div>
-            
-            <p className='content col-xs-6 col-md-6 col-lg-6'>
-                {click || 'Bấm vào tên nhân viên để xem thông tin'}
-            </p>
-
-        </div> */}
+        
     </div>
     )
 }

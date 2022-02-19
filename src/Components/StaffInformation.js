@@ -8,7 +8,7 @@ function StaffInformation() {
 const { id }  = useParams();
 
 const staff = STAFFS.find(item => item.id.toString() === id.toString())
-console.log(staff)
+
     return (    
             <div key={staff.id} className='row'>
                 <img className='col-12 col-md-4 col-lg-3' src={staff.image} />

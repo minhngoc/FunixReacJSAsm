@@ -5,7 +5,7 @@ function Department() {
     return (
         <div className="row">
             {DEPARTMENTS.map(department => 
-                <div className="col-12 col-md-6 col-lg-4">
+                <div key={department.id} className="col-12 col-md-6 col-lg-4">
                     <h4>{department.name}</h4>
                     <p>Số lượng nhân viên: {department.numberOfStaff}</p>
                 </div>    

@@ -22,7 +22,7 @@ function App() {
         <Route path='/staff/:id' component={StaffInformation}/>
         <Route path='/department' component={Department} />
         <Route path='/salary' component={Salary} />
-        <Route path='/staff/:username' component={FindStaffExpress} />
+        <Route path='/staff/:userName' component={FindStaffExpress} />
 
         
       </Switch>

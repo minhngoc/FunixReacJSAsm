@@ -5,7 +5,7 @@ function Salary() {
         <div className="row">
             {
                 STAFFS.map(staff => 
-                 <div className="staff_salary col-12 col-md-6 col-lg-4">
+                 <div key={staff.id} className="staff_salary col-12 col-md-6 col-lg-4">
                     <h2>{staff.name}</h2>
                     <p>Mã nhân viên: {staff.id}</p>   
                     <p>Hệ số lương: {staff.salaryScale}</p>   
