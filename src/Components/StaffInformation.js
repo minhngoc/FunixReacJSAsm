@@ -10,7 +10,8 @@ const { id }  = useParams();
 const staff = STAFFS.find(item => item.id.toString() === id.toString())
 
     return (    
-            <div key={staff.id} className='row'>
+            <>
+            {staff && <div key={staff.id} className='row'>
                 <img className='col-12 col-md-4 col-lg-3' src={staff.image} />
                 <div className='content col-12 col-md-8 col-lg-9'>
                     <p>Họ và tên: {staff.name}</p>
@@ -21,7 +22,8 @@ const staff = STAFFS.find(item => item.id.toString() === id.toString())
                     <p>Số ngày đã làm thêm: {staff.overTime}</p>
                 </div>
 
-            </div>
+            </div>}
+            </>
         
     )
 }

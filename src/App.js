@@ -1,4 +1,4 @@
-import StaffListComponent from "./StaffListComponent";
+import StaffListComponent from './Components/StaffListComponent';
 import './App.css';
 import { useParams } from "react-router-dom";
 import { Route, Link, Switch } from 'react-router-dom';
@@ -19,10 +19,10 @@ function App() {
       <FindStaff />
       <Switch>
         <Route exact path='/' component={StaffListComponent} />
+        <Route path='/staffs/:userName' component={FindStaffExpress} />
         <Route path='/staff/:id' component={StaffInformation}/>
         <Route path='/department' component={Department} />
         <Route path='/salary' component={Salary} />
-        <Route path='/staff/:userName' component={FindStaffExpress} />
 
         
       </Switch>

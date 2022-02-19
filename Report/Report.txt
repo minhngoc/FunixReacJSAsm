@@ -1,0 +1,22 @@
+ *** Báo cáo tổng quan về asm2 ***
+1/ Đây là ứng dụng quản lý nhân viên. 
+Được sử dụng để quản lý các thông tin của tất cả các nhân viên trong công ty như:
+	- Họ tên
+	- Ngày tháng năm sinh
+	- Phòng ban
+	- Ngày vào công ty
+	- ...
+2/ Khi vào ứng dụng thì trang chủ sẽ là danh sách các nhân viên nhưng chỉ bao gồm
+tên và ảnh chân dung. 
+	- Tính năng đầu tiên là khi kích vào ảnh của nhân viên bất kỳ ứng dụng 
+	sẽ reder ra màn hình thông tin chi tiết của nhân viên đó.
+	- Tính năng thứ 2 là ở thanh menu có chữ Nhân Viên, khi kích vào thì sẽ 
+	render ra danh sách nhân viên như ở trang chủ.
+	- Tính năng thứ 3 là ở thanh menu có chữ Phòng Ban, khi kích vào thì sẽ 
+	reder ra các phòng ban hiện có trong công ty.
+	- Tính năng thứ 4 là ở thanh menu có chữ Bảng Lương, khi kích vào thì sẽ
+	reder ra mức lương cùng hệ số lương chi tiết của tất cả nhân viên.
+
+3/ Tính năng tìm kiếm theo tên
+	- Sẽ bao gồm một ô nhập vào button "Tìm kiếm", khi nhập tên của nhân viên
+	nào thì thông tin của nhân viên đó sẽ xuất hiện ở màn hình chính.

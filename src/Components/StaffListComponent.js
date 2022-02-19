@@ -10,9 +10,6 @@ function StaffListComponent() {
 
     const [click, setClick] = useState('')
 
-    // const [department, setDepartment] = useState(false)
-    
-
     const HandleClick = (staff) => {
        
         setClick( 
@@ -46,5 +43,5 @@ function StaffListComponent() {
     </div>
     )
 }
-//template string
+
 export default StaffListComponent;
