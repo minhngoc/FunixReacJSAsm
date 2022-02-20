@@ -17,6 +17,7 @@ tên và ảnh chân dung.
 	- Tính năng thứ 4 là ở thanh menu có chữ Bảng Lương, khi kích vào thì sẽ
 	reder ra mức lương cùng hệ số lương chi tiết của tất cả nhân viên.
 
-3/ Tính năng tìm kiếm theo tên
-	- Sẽ bao gồm một ô nhập vào button "Tìm kiếm", khi nhập tên của nhân viên
-	nào thì thông tin của nhân viên đó sẽ xuất hiện ở màn hình chính.
+3/ Tính năng nâng cao tìm kiếm theo tên
+	- Sẽ bao gồm 1 ô input và 1 button "Tìm kiếm", xuất hiện xuyên suốt ứng dụng
+	 khi nhập tên của nhân viên nào thì thông tin của nhân viên đó sẽ xuất hiện ở
+	 màn hình chính.
