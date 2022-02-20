@@ -5,7 +5,7 @@ import dateFormat from 'dateformat';
 
 function FindStaffExpress() {
     const { userName }  = useParams();
-    
+    console.log(userName)
     const staff = STAFFS.find(item => item.name.toString() === userName.replace('%20', ' '))
     return(
        <div>
