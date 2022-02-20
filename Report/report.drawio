@@ -10,14 +10,26 @@
 tên và ảnh chân dung. 
 	- Tính năng đầu tiên là khi kích vào ảnh của nhân viên bất kỳ ứng dụng 
 	sẽ reder ra màn hình thông tin chi tiết của nhân viên đó.
+
 	- Tính năng thứ 2 là ở thanh menu có chữ Nhân Viên, khi kích vào thì sẽ 
 	render ra danh sách nhân viên như ở trang chủ.
+
 	- Tính năng thứ 3 là ở thanh menu có chữ Phòng Ban, khi kích vào thì sẽ 
-	reder ra các phòng ban hiện có trong công ty.
+	reder ra các phòng ban hiện có trong công ty và những thông tin chi tiết
+	của phòng ban đó.
+
 	- Tính năng thứ 4 là ở thanh menu có chữ Bảng Lương, khi kích vào thì sẽ
 	reder ra mức lương cùng hệ số lương chi tiết của tất cả nhân viên.
 
+
 3/ Tính năng nâng cao tìm kiếm theo tên
-	- Sẽ bao gồm 1 ô input và 1 button "Tìm kiếm", xuất hiện xuyên suốt ứng dụng
-	 khi nhập tên của nhân viên nào thì thông tin của nhân viên đó sẽ xuất hiện ở
-	 màn hình chính.
+	- Sẽ bao gồm 1 ô input và 1 button "Tìm kiếm", xuất hiện xuyên suốt ứng dụng.
+	 
+	- Trường hợp 1: Khi để trống input và nhấn vào button thì 1 thông báo sẽ xuất
+	hiện với nội dung: "Xin hãy nhập đầy đủ họ tên"
+
+	- Trường hợp 2: Khi nhập tên không khớp với dữ liệu thì 1 thông báo sẽ xuất
+	hiện với nội dung: "Họ tên chưa đúng"
+
+	- Trường hợp 3: Khi nhập tên khớp với dữ liệu thì sẽ chuyển đến trang với 
+	thông tin chi tiết của nhân viên đó
