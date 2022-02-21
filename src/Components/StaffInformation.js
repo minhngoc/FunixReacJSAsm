@@ -1,4 +1,4 @@
-import { DEPARTMENTS, STAFFS } from '../staffs'
+import { STAFFS } from '../staffs'
 import {useParams} from 'react-router-dom'
 import dateFormat from 'dateformat'; 
 
