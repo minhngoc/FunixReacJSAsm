@@ -15,7 +15,6 @@ function FindStaff() {
 
 
     const handleClick = () => {
-    const staffName = inputEl.current.value
 
         if(name === ''){
             alert('Vui lòng nhập họ tên.')
@@ -27,7 +26,7 @@ function FindStaff() {
     return(
         
         <div className="finding">
-            <input value={name} ref={inputEl} onChange={event => setName(event.target.value)} placeholder="Nhập tên nhân viên" />
+            <input value={name} onChange={event => setName(event.target.value)} placeholder="Nhập tên nhân viên" />
             
             {staffNames !== undefined ? <Link to={`/staffs/${name}`}><button className="button">Tìm kiếm</button></Link> : <button onClick={handleClick} className="button">Tìm kiếm</button>}
         </div>
