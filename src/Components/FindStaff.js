@@ -21,6 +21,7 @@ function FindStaff() {
         }else if(name !== staffNames) {
             alert('Họ tên chưa chính xác.')
         }
+        setName('')
     }
     
     return(
