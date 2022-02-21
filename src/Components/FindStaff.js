@@ -4,15 +4,8 @@ import { STAFFS } from '../staffs';
 
 function FindStaff() {
     const [name, setName] = useState('')
-    const inputEl = useRef(null);
-    const staffNames = STAFFS.find(staffName => staffName.name === name)
-    
-    // useEffect(() => {
-    //     return () => {
-    //         setName('')
-    //     };
-    //   });
 
+    const staffNames = STAFFS.find(staffName => staffName.name === name)
 
     const handleClick = () => {
 
