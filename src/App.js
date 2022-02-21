@@ -1,9 +1,7 @@
 import StaffListComponent from './Components/StaffListComponent';
 import './App.css';
-import { useParams } from "react-router-dom";
-import { Route, Link, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import StaffInformation from "./Components/StaffInformation";
-import { STAFFS } from "./staffs";
 import Header from "./Components/Header";
 import Department from "./Components/Department";
 import Footer from "./Components/Footer";

@@ -1,5 +1,4 @@
-import { Fragment, useCallback } from 'react';
-import { DEPARTMENTS, STAFFS } from '../staffs'
+import { STAFFS } from '../staffs'
 import { useState } from 'react';
 import dateFormat from 'dateformat'; 
 import { Link } from 'react-router-dom';
