@@ -18,9 +18,9 @@ function FindStaff() {
     const staffName = inputEl.current.value
 
         if(name === ''){
-            alert('Vui lòng nhập họ tên')
+            alert('Vui lòng nhập họ tên.')
         }else if(name !== staffNames) {
-            alert('Họ tên chưa đúng')
+            alert('Họ tên chưa chính xác.')
         }
     }
     
